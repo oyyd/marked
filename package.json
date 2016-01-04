@@ -7,10 +7,10 @@
   "bin": "./bin/marked",
   "man": "./man/marked.1",
   "preferGlobal": true,
-  "repository": "git://github.com/chjj/marked.git",
-  "homepage": "https://github.com/chjj/marked",
+  "repository": "git://github.com/oyyd/marked-chartjs-binding.git",
+  "homepage": "https://github.com/oyyd/marked-chartjs-binding",
   "bugs": {
-    "url": "http://github.com/chjj/marked/issues"
+    "url": "https://github.com/oyyd/marked-chartjs-binding/issues"
   },
   "license": "MIT",
   "keywords": [
