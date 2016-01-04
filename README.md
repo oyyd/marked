@@ -1,4 +1,4 @@
-# marked-chardjs-binding
+# marked-chartjs-binding
 
 Hacking [marked](https://github.com/chjj/marked) to support [Chart.js](https://github.com/nnnick/Chart.js).
 
@@ -9,7 +9,7 @@ For example:
 
 graph.Line
 {
-  {
+  "data": {
       "labels": ["January", "February", "March", "April", "May", "June", "July"],
       "datasets": [
           {
@@ -39,7 +39,7 @@ endgraph
 ```
 
 ```js
-var binding = require('marked-chardjs-binding');
+var binding = require('marked-chartjs-binding');
 var marked = binding.marked;
 var renderCharts = binding.renderCharts;
 
@@ -51,7 +51,7 @@ renderCharts();
 
 will get:
 
-// TODO: line chart picture
+![demo](./demo.png)
 
 ### installation
 
