@@ -2,7 +2,7 @@
   "name": "marked-chartjs-binding",
   "description": "Hacking marked to support Chart.js",
   "author": "Christopher Jeffrey",
-  "version": "0.3.5",
+  "version": "1.0.0",
   "main": "./lib/binding.js",
   "bin": "./bin/marked",
   "man": "./man/marked.1",
